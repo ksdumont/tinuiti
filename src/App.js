@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import './App.css';
 import MyContext from './MyContext'
-import List from './components/List'
+import Home from './components/Home'
+import ProductPage from './components/ProductPage'
+import { Route, Switch } from 'react-router-dom'
 
 function App() {
   const [data, setData] = useState([])
@@ -20,10 +22,10 @@ function App() {
   
   return (
     <MyContext.Provider value={data}>
-      <div className="container">
-        <img className="tinuiti-logo" src="https://tinuiti.com/wp-content/uploads/2019/05/logo.svg" alt="Tinuiti"></img>
-        <List />
-      </div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/product/:id" component={ProductPage} />    
+        </Switch>
     </MyContext.Provider>
   );
 }
