@@ -1,32 +1,33 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Line} from 'react-chartjs-2';
 
-function Chart(props) {
-const state = {
-  labels: ['January', 'February', 'March',
-           'April', 'May'],
+function Chart({keyword, dailyRankings}) {
+console.log(dailyRankings)
+const [chartData, setChartData] = useState({
+  labels: ['10/01/2020', '10/02/2020', '10/03/2020',
+           '10/04/2020', '10/05/2020'],
   datasets: [
     {
-      label: 'Rainfall',
-      fill: false,
+      label: 'Keyword Rankings',
+      fill: true,
       lineTension: 0.5,
-      backgroundColor: '#6600cc',
+      backgroundColor: 'rgba(102,0,204, 0.5)',
       borderColor: '#4178cf',
-      borderWidth: 2,
-      data: [65, 59, 80, 81, 56]
+      borderWidth: 5,
+      data: dailyRankings === undefined ? [] : dailyRankings.map(r => r.rank) 
     }
   ]
-}
+  })  
 
   return (
     <div className="chart-container">
         <Line
-          data={state}
+          data={chartData}
           options={{
             title:{
               display:true,
-              text:'Average Rainfall per month',
-              fontSize:20
+              text:`Keywords Used: ${keyword}`,
+              fontSize: 20
             },
             legend:{
               display:true,

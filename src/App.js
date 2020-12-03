@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     fetchData()
-  }, [])
+  },[])
   
   return (
     <MyContext.Provider value={data}>

@@ -54,11 +54,14 @@
   color: gray;
   margin: 1rem 5rem;
 }
-.product-chart {
-  text-align: center;
-}
+
 .chart-container {
-  height: 500px;
-  width: 500px;
-  margin: 20px;
+  height: 400px;
+  width: 800px;
+  padding: 2rem;
+  margin: 0 auto;
+  border: solid 1px black;
+}
+.loading-text {
+  margin-top: 5rem;
 }
