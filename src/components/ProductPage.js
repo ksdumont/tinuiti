@@ -9,13 +9,14 @@ function ProductPage() {
   
   const productList = useContext(MyContext)
   const {id} = useParams()
-  
+
   useEffect(() => {
-    const currProduct = productList.filter(product => product.productId === id)[0] 
+    const currProduct = productList.filter(product => product.productId === id)[0]
     setCurrentProduct(currProduct)
   }, []) 
   
   console.log(currentProduct)
+  console.log(productList)
 
   return (
     <div className="product-page">

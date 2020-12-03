@@ -18,8 +18,6 @@ function App() {
     fetchData()
   }, [])
   
-  console.log(data)
-  
   return (
     <MyContext.Provider value={data}>
         <Switch>
