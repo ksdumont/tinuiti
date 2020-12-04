@@ -4,11 +4,10 @@ import PropTypes from 'prop-types';
 
 function Chart({ keyword, dailyRankings }) {
   const chartData = {
-    labels: ['10/01/2020', '10/02/2020', '10/03/2020',
-      '10/04/2020', '10/05/2020'],
+    labels: ['10/01/20', '10/02/20', '10/03/20', '10/04/20', '10/05/20'],
     datasets: [
       {
-        label: 'Keyword Rankings',
+        label: 'SEO Rankings',
         fill: true,
         lineTension: 0.5,
         backgroundColor: 'rgba(102,0,204, 0.5)',
@@ -26,7 +25,7 @@ function Chart({ keyword, dailyRankings }) {
         options={{
           title: {
             display: true,
-            text: `Keywords Used: ${keyword}`,
+            text: `Keywords: ${keyword}`,
             fontSize: 20,
           },
           legend: {

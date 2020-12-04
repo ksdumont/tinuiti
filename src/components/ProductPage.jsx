@@ -17,9 +17,6 @@ function ProductPage() {
     setCurrentProduct(currProduct);
   }, [currentProduct, productList]);
 
-  console.log(currentProduct);
-  console.log(productList);
-
   return (
     <div className="product-page">
       <Logo />

@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 function Card({ product }) {
   const {
-    image,
     price,
     productId,
     productName,
@@ -17,13 +16,26 @@ function Card({ product }) {
     history.push(`/product/${productId}`);
   };
 
+  const generateStars = (rating) => {
+    const result = [];
+    for (let i = 1; i < 6; i += 1) {
+      if (i <= rating) {
+        result.push(<i className="fa fa-star star-checked" />);
+      } else {
+        result.push(<i className="fa fa-star-o star-empty" />);
+      }
+    }
+    return result;
+  };
   return (
     <div className="card">
-      <div className="card-img"><img src={image} alt={productName} /></div>
+      <div className="card-img"><img src="/lineGraphImage.jpg" alt="graph" /></div>
       <div className="card-body">
         <h5 className="card-title">{productName}</h5>
         <p className="card-price">{price}</p>
-        <h5 className="card-rating">{reviews[0].rating}</h5>
+        <h5 className="card-rating">
+          {generateStars(reviews[0].rating)}
+        </h5>
         <p className="card-reviews">
           {reviews[0].count}
           {' '}

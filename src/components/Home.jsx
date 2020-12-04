@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import MyContext from '../MyContext';
 import Card from './Card';
 import Logo from './Logo';
@@ -7,20 +7,26 @@ import SearchBox from './SearchBox';
 function Home() {
   const productList = useContext(MyContext);
   const [products, setProducts] = useState(productList);
+  const [query, setQuery] = useState('');
 
-  const filterProducts = (text) => {
-    const filteredProducts = products
-      .filter((product) => product.productName.toLowerCase().includes(text));
+  useEffect(() => {
+    const filteredProducts = productList
+      .filter((product) => product.productName.toLowerCase().includes(query.toLowerCase()));
     setProducts(filteredProducts);
-  };
+  }, [query]);
   return (
     <>
       <Logo />
-      <SearchBox getProducts={filterProducts} />
+      <SearchBox getQuery={(q) => setQuery(q)} />
       <div className="product-list">
-        {products && products.map((product) => (
-          <Card key={product.productId} product={product} />
-        ))}
+        {!products.length && query === ''
+          ? productList.map((product) => (
+            <Card key={product.productId} product={product} />
+          )) : (
+            products.map((product) => (
+              <Card key={product.productId} product={product} />
+            ))
+          )}
       </div>
     </>
   );

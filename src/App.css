@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  box-sizing: border-box;
+}
+html, body {
+  background-image: linear-gradient(180deg, rgba(65,120,207,0.5) 0%, rgba(102,0,204, 0.3) 100%);
+  height: 100vh;
 }
 .tinuiti-logo {
   height: 120px;
@@ -11,71 +16,84 @@
   top: 0;
   left: 1rem;
 }
-/* Search Box Stylings */
+/* Search Box Styles */
 .search {
   height: 100px;
-  margin-top: 5rem;
 }
-
 input[type='text'] {
-  display: block;
   padding: 10px;
   font-size: 2rem;
   border: 0;
   border-radius: 5px;
   width: 60%;
   margin: auto;
+  margin-top: 5rem;
 }
-/* Product List Stylings */
+input[type=text]:focus{
+  outline: 3px solid #4178cf;     
+}
+/* Product List Styles */
 .product-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 5rem;
 }
-/* Card Stylings */
+/* Card Styles */
 .card {
   border: solid 1px #4178cf;
+  background-color: white;
   border-radius: 10%;
-  height: 200px;
+  height: 225px;
   width: 200px;
   margin: 1rem;
   padding: 1rem;
   box-shadow: 0 5px 10px -5px;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  opacity: 0.9;
 }
 .card:hover {
-  box-shadow: -1px -1px 10px 1px #4178cf, 1px 1px 10px 1px #4178cf;
+  box-shadow: -1px -1px 10px 3px #4178cf, 1px 1px 10px 3px #4178cf;
   transform: scale(1.1);
+  border-radius: 0;
 }
-.card-img {
-  margin-top: 0.5rem;
+.card-img > img {
+  height: 50px;
+  width: 90px;
 }
 .card-body {
   margin: 0.5rem;
   padding: 0.5rem;
 }
+.star-checked {
+  color: #ffa534;
+}
+.star-empty {
+  color: #ffa534;
+}
 .card-button {
   background-image: linear-gradient(90deg, #4178cf 0%, #6600cc 100%);
   color: white;
-  padding: 10px 18px;
+  padding: 5px 12px;
   border-radius: 50px;
   font-size: 1.5rem;
   margin-top: 1rem;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .card-button:hover {
   border-radius: 0;
   transform: scale(1.1);
 }
 
-/* product page stylings */
-
+/* product page styles */
+.product-page {
+padding-top: 7rem;
+}
 .product-title {
-  margin-top: 7rem;
   font-size: 5rem;
 }
 .product-description {
-  color: gray;
+  color: white;
   margin: 1rem 5rem;
 }
 
@@ -85,8 +103,53 @@ input[type='text'] {
   padding: 2rem;
   margin: 2rem auto;
   box-shadow: -1px -1px 7px 1px #4178cf, 1px 1px 7px 1px #4178cf;
-  
+  background-color: white;
+  opacity: 0.8;
 }
 .loading-text {
   margin-top: 5rem;
+}
+
+/* Media Queries */
+ @media screen and (max-width: 900px) {
+   .search {
+     padding-top: 3rem;
+   }
+   .product-list {
+     margin-top: 8rem;
+   }
+   .chart-container {
+    height: 260px;
+    width: 470px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+  .product-title {
+    font-size: 4rem;
+}
+  .product-description {
+    margin: 1rem 2rem;
+} 
+ }
+ @media screen and (max-width: 500px) {
+.tinuiti-logo {
+  height: 100px;
+  width: 180px;
+}
+.search {
+  height: 80px;
+}
+input[type='text'] {
+  font-size: 1.2rem;
+}
+.chart-container {
+  height: 220px;
+  width: 350px;
+}
+}
+@media screen and (max-width: 340px) {
+  .chart-container {
+  height: 220px;
+  width: 300px;
+}
 }

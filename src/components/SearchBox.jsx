@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-function SearchBox({ getProducts }) {
+function SearchBox({ getQuery }) {
   const [text, setText] = useState('');
 
-  const onChange = (e) => {
-    setText(e);
-    getProducts(text);
+  const onChange = (q) => {
+    setText(q);
+    getQuery(q);
   };
-  console.log(text);
+
   return (
     <section className="search">
       <form>
@@ -25,10 +25,10 @@ function SearchBox({ getProducts }) {
 }
 
 SearchBox.propTypes = {
-  getProducts: PropTypes.func,
+  getQuery: PropTypes.func,
 };
 SearchBox.defaultProps = {
-  getProducts: () => {},
+  getQuery: () => {},
 };
 
 export default SearchBox;
