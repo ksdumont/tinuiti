@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <Link
+    to="/"
+  >
+    <img
+      alt="Tinuiti"
+      className="tinuiti-logo"
+      src="https://tinuiti.com/wp-content/uploads/2019/05/logo.svg"
+    />
+  </Link>
+</div>
+`;

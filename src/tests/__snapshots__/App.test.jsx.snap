@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ContextProvider
+  value={
+    Array [
+      Object {
+        "category": "pariatur",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 40,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 48,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 32,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 21,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 17,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": false,
+        "keyword": "tempor aliquip enim",
+        "price": "$91.22",
+        "productDescription": "Ad in exercitation minim dolore consectetur irure reprehenderit dolor in. Veniam enim minim exercitation excepteur sunt aliquip elit tempor est nostrud esse tempor. Velit sint irure culpa adipisicing quis consectetur. Sit commodo ipsum pariatur aute ipsum ad nisi. Cupidatat aliquip exercitation ut magna. Incididunt quis ex minim amet mollit magna sunt dolore cupidatat proident quis. Irure proident nulla et fugiat deserunt id dolore commodo ea aliqua laboris voluptate.
+",
+        "productId": "5f95f6674cf51d5b5197ab6f",
+        "productName": "Brainclip",
+        "reviews": Array [
+          Object {
+            "count": 903,
+            "rating": 3,
+          },
+        ],
+      },
+      Object {
+        "category": "laboris",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 19,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 37,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 28,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 39,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 47,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "occaecat consectetur exercitation",
+        "price": "$68.35",
+        "productDescription": "Elit in et amet voluptate dolor dolore duis excepteur fugiat consectetur nulla velit. Do voluptate quis adipisicing id irure esse reprehenderit proident pariatur aliqua. Sunt cillum velit fugiat cillum in deserunt labore nostrud mollit. Nostrud sint consequat veniam ex enim do labore duis id culpa amet. Commodo nostrud veniam officia quis laborum Lorem sunt esse.
+",
+        "productId": "5f95f667ac8502c4a3658e89",
+        "productName": "Eplode",
+        "reviews": Array [
+          Object {
+            "count": 538,
+            "rating": 3,
+          },
+        ],
+      },
+      Object {
+        "category": "id",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 17,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 8,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 7,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 31,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 24,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "tempor ut excepteur",
+        "price": "$58.30",
+        "productDescription": "Ex ut proident duis laboris excepteur dolore tempor ex aliqua eiusmod tempor. Do nostrud enim ut commodo do in sint. Officia sit nostrud ea elit adipisicing voluptate sit incididunt. Laborum nostrud do et irure non pariatur excepteur occaecat consequat ea dolore sint. Veniam cillum excepteur voluptate dolor do mollit anim voluptate labore nulla. Amet quis do enim officia sint cupidatat anim elit laborum ea do elit Lorem. Pariatur irure nostrud cillum mollit consectetur.
+",
+        "productId": "5f95f667dfacc86b5e0060cd",
+        "productName": "Amtap",
+        "reviews": Array [
+          Object {
+            "count": 498,
+            "rating": 5,
+          },
+        ],
+      },
+      Object {
+        "category": "ad",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 5,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 28,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 46,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 9,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 11,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "sunt qui sint",
+        "price": "$12.80",
+        "productDescription": "Lorem nostrud dolore laborum officia nostrud amet magna in. Dolore proident velit incididunt cillum culpa et ut irure. Enim fugiat non velit consectetur minim. Cupidatat ipsum laboris elit ipsum mollit esse dolor veniam reprehenderit aliqua. Quis consectetur elit cillum ex occaecat consectetur proident labore sunt magna reprehenderit dolor anim laborum. Exercitation ipsum velit aute in.
+",
+        "productId": "5f95f667b59cfa309a8a5a7c",
+        "productName": "Comtours",
+        "reviews": Array [
+          Object {
+            "count": 550,
+            "rating": 5,
+          },
+        ],
+      },
+      Object {
+        "category": "proident",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 8,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 4,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 41,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 1,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 4,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": false,
+        "keyword": "nisi ea fugiat",
+        "price": "$39.22",
+        "productDescription": "Nisi qui minim deserunt pariatur. Fugiat in est Lorem enim labore elit culpa reprehenderit occaecat. Ad ea veniam ullamco do.
+",
+        "productId": "5f95f6674935b742706452cb",
+        "productName": "Kage",
+        "reviews": Array [
+          Object {
+            "count": 368,
+            "rating": 5,
+          },
+        ],
+      },
+      Object {
+        "category": "irure",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 5,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 15,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 25,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 3,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 44,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": false,
+        "keyword": "eu do officia",
+        "price": "$97.82",
+        "productDescription": "Ut velit est est ea laborum velit esse consequat. Id esse duis excepteur reprehenderit cillum irure sint aute. Mollit et aliqua dolore officia ipsum do laborum tempor id duis.
+",
+        "productId": "5f95f6675d9695a3c345e8e4",
+        "productName": "Emtrak",
+        "reviews": Array [
+          Object {
+            "count": 792,
+            "rating": 5,
+          },
+        ],
+      },
+      Object {
+        "category": "aliquip",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 49,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 37,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 39,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 44,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 17,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "minim ea et",
+        "price": "$13.99",
+        "productDescription": "Non consequat dolore aliqua sit. Ad quis adipisicing commodo consequat nisi magna veniam aliqua veniam. Dolor deserunt aute incididunt fugiat nostrud amet incididunt ex ut irure aliqua excepteur nostrud tempor. Reprehenderit officia consectetur officia consequat esse deserunt cupidatat. Nostrud reprehenderit tempor cillum in labore officia sit.
+",
+        "productId": "5f95f6676314aa238580ddbe",
+        "productName": "Martgo",
+        "reviews": Array [
+          Object {
+            "count": 94,
+            "rating": 5,
+          },
+        ],
+      },
+      Object {
+        "category": "duis",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 46,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 9,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 21,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 45,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 41,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": false,
+        "keyword": "labore pariatur do",
+        "price": "$49.37",
+        "productDescription": "Cillum incididunt laborum dolore esse excepteur sint esse quis laboris laborum do ipsum pariatur. Cupidatat amet do excepteur in quis aliqua quis duis. Nostrud voluptate sunt tempor ut. Cupidatat fugiat ipsum cupidatat culpa culpa mollit exercitation aute officia veniam proident nisi reprehenderit dolor. Fugiat veniam labore deserunt velit nisi ipsum officia. Minim sit elit occaecat proident voluptate duis non.
+",
+        "productId": "5f95f667ea8b5e1217726528",
+        "productName": "Megall",
+        "reviews": Array [
+          Object {
+            "count": 990,
+            "rating": 5,
+          },
+        ],
+      },
+      Object {
+        "category": "eu",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 1,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 25,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 11,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 5,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 24,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "sint reprehenderit fugiat",
+        "price": "$58.51",
+        "productDescription": "Dolore excepteur in duis tempor ea ipsum esse fugiat magna consequat excepteur. Elit consectetur dolore eu ad. Et in voluptate velit et sit et ad. Amet quis ea quis est qui irure ullamco qui laborum.
+",
+        "productId": "5f95f6671299080f4e205455",
+        "productName": "Baluba",
+        "reviews": Array [
+          Object {
+            "count": 599,
+            "rating": 3,
+          },
+        ],
+      },
+      Object {
+        "category": "fugiat",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 26,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 10,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 10,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 44,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 45,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "ad ullamco dolore",
+        "price": "$87.19",
+        "productDescription": "Aliqua dolor non qui aliquip minim ipsum. Sint nulla reprehenderit est esse cupidatat mollit dolore veniam quis dolore. Voluptate cillum commodo in ipsum consequat culpa nulla ut nulla non. Amet est eiusmod amet ipsum aute amet Lorem excepteur reprehenderit ad deserunt. Eiusmod ad enim adipisicing non officia id. Labore veniam deserunt laborum dolore eiusmod irure veniam eiusmod id ea ullamco. Consequat culpa aute cillum exercitation fugiat in aute ad ea ad.
+",
+        "productId": "5f95f667250f3627ef71809d",
+        "productName": "Jumpstack",
+        "reviews": Array [
+          Object {
+            "count": 786,
+            "rating": 5,
+          },
+        ],
+      },
+      Object {
+        "category": "laborum",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 46,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 2,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 36,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 40,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 40,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": false,
+        "keyword": "commodo eu id",
+        "price": "$47.49",
+        "productDescription": "Laborum duis velit sint cupidatat commodo proident tempor in. Anim labore aute fugiat enim adipisicing esse cupidatat fugiat veniam quis incididunt adipisicing. Mollit occaecat dolore commodo mollit exercitation sunt labore aliquip aliqua est aute excepteur non eiusmod. Esse ad consequat sit amet sint occaecat mollit adipisicing mollit magna nulla ea mollit.
+",
+        "productId": "5f95f667205494ee0e7b3cfb",
+        "productName": "Insectus",
+        "reviews": Array [
+          Object {
+            "count": 453,
+            "rating": 1,
+          },
+        ],
+      },
+      Object {
+        "category": "Lorem",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 25,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 50,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 35,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 38,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 48,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": false,
+        "keyword": "duis nulla culpa",
+        "price": "$27.88",
+        "productDescription": "Aliquip cillum deserunt proident cupidatat non veniam ut ad ex. Aliqua est ad aute dolore qui. Sit magna tempor cupidatat et. Deserunt sint anim tempor labore eiusmod. Labore enim aliqua ad veniam consequat ipsum elit aliquip aliquip est irure duis. Nulla sint laboris velit anim id mollit anim irure deserunt cillum magna enim. Fugiat eiusmod magna ut labore ipsum est consequat laboris.
+",
+        "productId": "5f95f667265be0cf661d313f",
+        "productName": "Plutorque",
+        "reviews": Array [
+          Object {
+            "count": 509,
+            "rating": 5,
+          },
+        ],
+      },
+      Object {
+        "category": "ipsum",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 50,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 31,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 13,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 9,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 46,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": false,
+        "keyword": "ullamco culpa tempor",
+        "price": "$94.28",
+        "productDescription": "Officia nulla anim culpa sint mollit eu aliqua aliquip ex ut magna pariatur. Qui proident commodo ex sint enim. Adipisicing pariatur ipsum magna qui ullamco id excepteur aliqua incididunt. Id laborum veniam pariatur et cupidatat. Ullamco sint eu excepteur culpa quis excepteur in culpa et. Deserunt reprehenderit nulla exercitation dolore in elit.
+",
+        "productId": "5f95f6671c372311b66c6ad4",
+        "productName": "Ecrater",
+        "reviews": Array [
+          Object {
+            "count": 604,
+            "rating": 4,
+          },
+        ],
+      },
+      Object {
+        "category": "sit",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 16,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 42,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 26,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 33,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 41,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "consequat minim aliquip",
+        "price": "$88.38",
+        "productDescription": "Elit laboris minim incididunt nisi dolore sit ipsum proident ipsum culpa cillum culpa qui eu. Quis incididunt amet amet deserunt aute quis eiusmod incididunt ullamco ipsum. Officia elit laboris anim est nostrud cupidatat esse sint ullamco.
+",
+        "productId": "5f95f667f4d1aed62fc10d0f",
+        "productName": "Cuizine",
+        "reviews": Array [
+          Object {
+            "count": 753,
+            "rating": 3,
+          },
+        ],
+      },
+      Object {
+        "category": "dolor",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 17,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 9,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 35,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 30,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 21,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "nostrud pariatur duis",
+        "price": "$22.83",
+        "productDescription": "Dolore ipsum aliqua adipisicing elit laboris est qui cillum ullamco nisi commodo do incididunt sunt. Deserunt consequat aliquip enim nostrud consectetur laboris. Incididunt nisi cupidatat amet laboris adipisicing culpa.
+",
+        "productId": "5f95f66772f584b8090b075a",
+        "productName": "Aquasseur",
+        "reviews": Array [
+          Object {
+            "count": 837,
+            "rating": 4,
+          },
+        ],
+      },
+      Object {
+        "category": "consequat",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 4,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 38,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 47,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 36,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 39,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": false,
+        "keyword": "fugiat ea enim",
+        "price": "$69.87",
+        "productDescription": "Ex mollit nulla incididunt dolor culpa mollit est elit cillum incididunt consequat ad irure. Voluptate aliqua amet adipisicing consectetur. Labore amet aliquip nulla reprehenderit nisi sunt do ex cupidatat. Qui elit ea consectetur consequat Lorem eu Lorem occaecat ad culpa sit consectetur cillum eiusmod. Ipsum excepteur in quis anim mollit duis magna nulla ut id aute enim. Labore est qui aliqua qui amet non dolore qui culpa ipsum occaecat. Consequat esse aute eu ipsum.
+",
+        "productId": "5f95f66720b6c39cb8e4dbc0",
+        "productName": "Rodeology",
+        "reviews": Array [
+          Object {
+            "count": 699,
+            "rating": 4,
+          },
+        ],
+      },
+      Object {
+        "category": "duis",
+        "dailyRankings": Array [
+          Object {
+            "date": "2020-10-01",
+            "rank": 48,
+          },
+          Object {
+            "date": "2020-10-02",
+            "rank": 6,
+          },
+          Object {
+            "date": "2020-10-03",
+            "rank": 41,
+          },
+          Object {
+            "date": "2020-10-04",
+            "rank": 11,
+          },
+          Object {
+            "date": "2020-10-05",
+            "rank": 2,
+          },
+        ],
+        "image": "http://placehold.it/32x32",
+        "inBuybox": true,
+        "keyword": "incididunt quis aliquip",
+        "price": "$39.75",
+        "productDescription": "Do commodo consequat commodo dolor. Nisi fugiat laborum tempor reprehenderit proident consequat Lorem do officia. Amet dolore in voluptate cillum cupidatat dolor. Occaecat commodo tempor aliquip Lorem est laborum deserunt. Incididunt proident occaecat velit cillum aliquip eiusmod elit ea.
+",
+        "productId": "5f95f66739e70fd36ac16b18",
+        "productName": "Fangold",
+        "reviews": Array [
+          Object {
+            "count": 842,
+            "rating": 2,
+          },
+        ],
+      },
+    ]
+  }
+>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/product/:id"
+    />
+  </Switch>
+</ContextProvider>
+`;

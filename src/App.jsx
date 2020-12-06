@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import MyContext from './MyContext';
+import ProductContext from './ProductContext';
 import Home from './components/Home';
 import ProductPage from './components/ProductPage';
 
@@ -19,12 +19,12 @@ function App() {
   }, []);
 
   return (
-    <MyContext.Provider value={data}>
+    <ProductContext.Provider value={data}>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/product/:id" component={ProductPage} />
       </Switch>
-    </MyContext.Provider>
+    </ProductContext.Provider>
   );
 }
 

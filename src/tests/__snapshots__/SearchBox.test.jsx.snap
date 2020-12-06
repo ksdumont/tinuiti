@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section
+  className="search"
+>
+  <form>
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Search Products"
+      type="text"
+      value=""
+    />
+  </form>
+</section>
+`;

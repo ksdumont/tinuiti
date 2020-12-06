@@ -1,6 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import generateStars from '../helper';
 
 function Card({ product }) {
   const {
@@ -16,22 +17,11 @@ function Card({ product }) {
     history.push(`/product/${productId}`);
   };
 
-  const generateStars = (rating) => {
-    const result = [];
-    for (let i = 1; i < 6; i += 1) {
-      if (i <= rating) {
-        result.push(<i className="fa fa-star star-checked" />);
-      } else {
-        result.push(<i className="fa fa-star-o star-empty" />);
-      }
-    }
-    return result;
-  };
   return (
     <div className="card">
       <div className="card-img"><img src="/lineGraphImage.jpg" alt="graph" /></div>
       <div className="card-body">
-        <h5 className="card-title">{productName}</h5>
+        <h5 className="card-title"><strong>{productName}</strong></h5>
         <p className="card-price">{price}</p>
         <h5 className="card-rating">
           {generateStars(reviews[0].rating)}
@@ -58,11 +48,14 @@ Card.propTypes = {
 };
 Card.defaultProps = {
   product: PropTypes.shape({
-    image: '',
-    price: '',
-    productId: '',
-    productName: '',
-    reviews: [],
+    image: '/lineGraphImage.jpg',
+    price: '$91.22',
+    productId: '5f95f6674cf51d5b5197ab6f',
+    productName: 'Brainclip',
+    reviews: [{
+      rating: 3,
+      count: 903,
+    }],
   }),
 
 };

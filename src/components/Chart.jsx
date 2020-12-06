@@ -43,8 +43,27 @@ Chart.propTypes = {
   dailyRankings: PropTypes.instanceOf(Array),
 };
 Chart.defaultProps = {
-  keyword: '',
-  dailyRankings: [],
+  keyword: 'tempor aliquip enim',
+  dailyRankings: [{
+    rank: 40,
+    date: '2020-10-01',
+  },
+  {
+    rank: 48,
+    date: '2020-10-02',
+  },
+  {
+    rank: 32,
+    date: '2020-10-03',
+  },
+  {
+    rank: 21,
+    date: '2020-10-04',
+  },
+  {
+    rank: 17,
+    date: '2020-10-05',
+  }],
 };
 
 export default Chart;

@@ -1,11 +1,11 @@
 import React, { useContext, useState, useEffect } from 'react';
-import MyContext from '../MyContext';
+import ProductContext from '../ProductContext';
 import Card from './Card';
 import Logo from './Logo';
 import SearchBox from './SearchBox';
 
 function Home() {
-  const productList = useContext(MyContext);
+  const productList = useContext(ProductContext);
   const [products, setProducts] = useState(productList);
   const [query, setQuery] = useState('');
 

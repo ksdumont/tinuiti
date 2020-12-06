@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="chart-container"
+>
+  <Line
+    data={
+      Object {
+        "datasets": Array [
+          Object {
+            "backgroundColor": "rgba(102,0,204, 0.5)",
+            "borderColor": "#4178cf",
+            "borderWidth": 5,
+            "data": Array [
+              40,
+              48,
+              32,
+              21,
+              17,
+            ],
+            "fill": true,
+            "label": "SEO Rankings",
+            "lineTension": 0.5,
+          },
+        ],
+        "labels": Array [
+          "10/01/20",
+          "10/02/20",
+          "10/03/20",
+          "10/04/20",
+          "10/05/20",
+        ],
+      }
+    }
+    options={
+      Object {
+        "legend": Object {
+          "display": true,
+          "position": "right",
+        },
+        "title": Object {
+          "display": true,
+          "fontSize": 20,
+          "text": "Keywords: tempor aliquip enim",
+        },
+      }
+    }
+  />
+</div>
+`;
