@@ -9,7 +9,7 @@ function App() {
   const [data, setData] = useState([]);
 
   const fetchData = () => {
-    fetch('data.json')
+    fetch('/data.json')
       .then((res) => res.json())
       .then((jsonData) => setData(jsonData));
   };

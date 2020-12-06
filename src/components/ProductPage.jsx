@@ -1,9 +1,9 @@
 import React, { useState, useContext, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import ProductContext from '../ProductContext';
 import Logo from './Logo';
 import Chart from './Chart';
-// import generateStars from '../helper';
+import generateStars from '../helper';
 
 function ProductPage() {
   const [currentProduct, setCurrentProduct] = useState({});
@@ -21,20 +21,20 @@ function ProductPage() {
   return (
     <div className="product-page">
       <Logo />
-      {currentProduct
+      {Object.keys(currentProduct).length
         ? (
           <>
             <h1 className="product-title">{currentProduct.productName}</h1>
             <div className="product-details">
               <p className="product-price">{currentProduct.price}</p>
-              {/* <h5 className="product-rating">
+              <h5 className="product-rating">
                 {generateStars(currentProduct.reviews[0].rating)}
-              </h5> */}
-              {/* <p className="product-reviews">
+              </h5>
+              <p className="product-reviews">
                 {currentProduct.reviews[0].count}
                 {' '}
                 reviews
-              </p> */}
+              </p>
             </div>
             <h5 className="product-description">{currentProduct.productDescription}</h5>
             <div className="product-chart">
@@ -43,6 +43,9 @@ function ProductPage() {
                 dailyRankings={currentProduct.dailyRankings}
               />
             </div>
+            <Link to="/">
+              <button type="button" className="product-page-button">Back To Products</button>
+            </Link>
           </>
         )
         : <h1 className="loading-text">Loading...</h1>}
